@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Profile</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      background-color: #dbeafe;
+    }
+    .box {
+      background: white;
+      width: 250px;
+      margin: 50px auto;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px gray;
+    }
+    img { width: 80px; border-radius: 50%; }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="https://via.placeholder.com/80" alt="me">
+    <h3>Gunadeep S</h3>
+    <p>BCA Student</p>
+    <button onclick="changeBg()">Change Color</button>
+  </div>
+
+  <script>
+    function changeBg() {
+      document.body.style.backgroundColor = "#ffd6d6";
+    }
+  </script>
+</body>
+</html>
